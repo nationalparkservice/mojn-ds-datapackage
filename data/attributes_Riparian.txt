@@ -1,0 +1,16 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Park		categorical				
+SiteCode		character				
+SiteName		character				
+VisitDate		Date		!Add datetime specifier here!		
+FieldSeason		numeric	!Add units here!			
+SampleFrame		categorical				
+Panel		categorical				
+IsVegetationObserved		categorical				
+MistletoePresent		categorical				
+LifeForm		categorical				
+Rank		numeric	!Add units here!			
+DominantSpecies		character				
+VisitType		categorical				
+DPL		categorical				
+Notes		categorical				

@@ -1,0 +1,22 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Park		categorical				
+Subunit		categorical				
+SiteCode		character				
+SiteName		character				
+SiteDescription		categorical				
+EcologicalDescription		character				
+LogisticalDescription		character				
+DriveDescription		character				
+HikeDescription		character				
+HikeDistance_m		character				
+HikeTime_min		character				
+GRTSDraw		categorical				
+GRTSOrder		numeric	!Add units here!			
+SiteStatus		categorical				
+SampleFrame		categorical				
+Panel		categorical				
+SiteProtectedStatus		categorical				
+Lat_WGS84		numeric	!Add units here!			
+Lon_WGS84		numeric	!Add units here!			
+X_UTM_NAD83_11N		numeric	!Add units here!			
+Y_UTM_NAD83_11N		numeric	!Add units here!			

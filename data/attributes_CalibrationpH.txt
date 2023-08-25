@@ -1,0 +1,19 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Park	Four letter park code	categorical				
+SiteCode	Unique alphanumeric site code	categorical				
+SiteName	Descriptive name of the site	character				
+VisitDate	Date that the monitoring occured	Date		YYYY-MM-DD		
+StartTime	Time that the monitoring occurred	Date		HH:MM:SS		
+FieldSeason	Field Season is typically the Water Year defined as Oct. 1st - Sept. 30th	categorical				
+VisitType	"Purpose of visit: Primary, Replicate, Training, Calibration, Auxilliary, Unknown"	categorical				
+CalibrationDate	Date of calibration	Date		YYYY-MM-DD		
+CalibrationTime	Time of calibration	Date		HH:MM:SS		
+pHInstrument	Name of water quality instrument (instrument being calibrated)	categorical				
+StandardValue_pH	Standard value of pH solution	numeric	!Add units here!			
+TemperatureCorrectedStd_pH	Temperature-corrected standard value of pH solution (only applies to some instruments)	numeric	!Add units here!			
+PreCalibrationReading_pH	Pre-calibration pH value	numeric	!Add units here!			
+PreCalibrationTemperature_C	Pre-calibration temperature in C	numeric	celsius			
+PostCalibrationReading_pH	Post-calibration pH value	numeric	!Add units here!			
+PostCalibrationTemperature_C	Post-calibration temperature in C	numeric	celsius			
+Notes	Notes about this calibration	character				
+pHUniqueID	???????????	character				

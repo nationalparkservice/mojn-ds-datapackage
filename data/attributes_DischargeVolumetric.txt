@@ -1,0 +1,14 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Park		categorical				
+SiteCode		categorical				
+SiteName		categorical				
+VisitDate		Date		!Add datetime specifier here!		
+FieldSeason		numeric	!Add units here!			
+SampleFrame		categorical				
+Panel		categorical				
+FlowCondition		categorical				
+ContainerVolume_mL		numeric	!Add units here!			
+FillTime_seconds		Date		!Add datetime specifier here!		
+EstimatedCapture_percent		numeric	!Add units here!			
+VisitType		categorical				
+DPL		categorical				

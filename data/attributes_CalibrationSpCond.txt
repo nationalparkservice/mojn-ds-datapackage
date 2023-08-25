@@ -1,0 +1,15 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Park	Four letter park code	categorical				
+SiteCode	Unique alphanumeric site code	categorical				
+SiteName	Descriptive name of the site	character				
+VisitDate	Date that the monitoring occured	Date		YYYY-MM-DD		
+StartTime	Time that the monitoring occurred	Date		HH:MM:SS		
+FieldSeason	Field Season is typically the Water Year defined as Oct. 1st - Sept. 30th	categorical				
+VisitType	"Purpose of visit: Primary, Replicate, Training, Calibration, Auxilliary, Unknown"	categorical				
+CalibrationDate	Date of calibration	Date		YYYY-MM-DD		
+CalibrationTime	Time of calibration	Date		HH:MM:SS		
+SpCondInstrument	Name of water quality instrument (instrument being calibrated)	categorical				
+StandardValue_microS_per_cm	Standard value of Specific Conductivity solution in microsiemens per cm	numeric	microsiemensPerCentimeter			
+PreCalibrationReading_microS_per_cm	Pre-calibration Specific Conductivity reading in microsiemens per cm	numeric	microsiemensPerCentimeter			
+PostCalibrationReading_microS_per_cm	Post-calibration Specific Conductivity reading in microsiemens per cm	numeric	microsiemensPerCentimeter			
+Notes	Notes about this calibration	character				

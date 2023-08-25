@@ -1,0 +1,17 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Park		categorical				
+SiteCode		character				
+SiteName		character				
+VisitDate		Date		!Add datetime specifier here!		
+FieldSeason		numeric	!Add units here!			
+SampleFrame		categorical				
+Panel		categorical				
+WQDataCollected		categorical				
+DissolvedOxygen_percent		numeric	!Add units here!			
+DissolvedOxygen_mg_per_L		numeric	!Add units here!			
+DataQualityFlag		categorical				
+DataQualityFlagNote		categorical				
+DOInstrument		categorical				
+VisitType		categorical				
+DPL		categorical				
+MonitoringStatus		categorical				

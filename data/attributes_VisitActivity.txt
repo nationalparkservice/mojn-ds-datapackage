@@ -1,0 +1,20 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Park		categorical				
+SiteCode		character				
+SiteName		character				
+VisitDate		Date		!Add datetime specifier here!		
+FieldSeason		numeric	!Add units here!			
+SpringType		categorical				
+FlowCondition		categorical				
+WQDataCollected		categorical				
+InvasivesObserved		categorical				
+RiparianObserved		categorical				
+MistletoePresent		categorical				
+WildlifeObserved		categorical				
+SpringbrookLength_Class		categorical				
+SpringbrookWidth_m		numeric	!Add units here!			
+SpringbrookLength_m		numeric	!Add units here!			
+SampleFrame		categorical				
+VisitType		categorical				
+MonitoringStatus		categorical				
+WaterQualityNotes		categorical				

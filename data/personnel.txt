@@ -1,0 +1,6 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Jennifer		Bailard	National Park Service	jennifer_bailard@nps.gov		PI	MOJN Desert Springs		
+Jennifer		Bailard	National Park Service	jennifer_bailard@nps.gov		creator	MOJN Desert Springs		
+Mark		Lehman	National Park Service	mark_lehman@nps.gov		contact	MOJN Desert Springs		
+Sarah		Wright	National Park Service	sarah_wright@nps.gov		contact	MOJN Desert Springs		
+Mojave Desert I&M			National Park Service	mojn@nps.gov		contact	MOJN Desert Springs		

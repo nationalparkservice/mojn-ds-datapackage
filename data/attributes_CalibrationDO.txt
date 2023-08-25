@@ -1,0 +1,17 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Park		categorical				
+SiteCode		character				
+SiteName		character				
+VisitDate		Date		!Add datetime specifier here!		
+StartTime		Date		!Add datetime specifier here!		
+FieldSeason		numeric	!Add units here!			
+VisitType		categorical				
+CalibrationDate		Date		!Add datetime specifier here!		
+CalibrationTime		Date		!Add datetime specifier here!		
+DOInstrument		categorical				
+BarometricPressure_mmHg		numeric	!Add units here!			
+PreCalibrationReading_percent		numeric	!Add units here!			
+PreCalibrationTemperature_C		numeric	!Add units here!			
+PostCalibrationReading_percent		numeric	!Add units here!			
+PostCalibrationTemperature_C		numeric	!Add units here!			
+Notes		categorical				
