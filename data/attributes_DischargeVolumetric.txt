@@ -1,14 +1,14 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-Park		categorical				
-SiteCode		categorical				
-SiteName		categorical				
-VisitDate		Date		!Add datetime specifier here!		
-FieldSeason		numeric	!Add units here!			
-SampleFrame		categorical				
-Panel		categorical				
-FlowCondition		categorical				
-ContainerVolume_mL		numeric	!Add units here!			
-FillTime_seconds		Date		!Add datetime specifier here!		
-EstimatedCapture_percent		numeric	!Add units here!			
-VisitType		categorical				
-DPL		categorical				
+Park	Four letter park code	categorical				
+SiteCode	Unique alphanumeric site code	categorical				
+SiteName	Descriptive name of the site	character				
+VisitDate	Date that the monitoring occured	Date		YYYY-MM-DD		
+FieldSeason	Field Season is typically the Water Year defined as Oct. 1st - Sept. 30th	categorical				
+SampleFrame	Frequency of sampling at this site	categorical				
+Panel	Grouping of sites that are usually sampled in the same year	categorical				
+FlowCondition	Flow condition at time of visit	categorical				
+ContainerVolume_mL	Volume of container used	numeric	milliliter			
+FillTime_seconds	How long it took for container to fill in seconds	numeric	second	!Add datetime specifier here!		
+EstimatedCapture_percent	Estimate of percentage of flow captured in container	numeric	percent			
+VisitType	"Purpose of visit: Primary, Replicate, Training, Calibration, Auxilliary, Unknown"	categorical				
+DPL	"Level of data processing applied to this data [Raw, Provisional, Accepted, Certified]"	categorical				

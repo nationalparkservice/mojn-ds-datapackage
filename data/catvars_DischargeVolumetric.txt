@@ -1,0 +1,74 @@
+attributeName	code	definition
+DPL	Accepted	Data have undergone all QA and QC procedures as defined in a published protocol and associated SOPs.
+DPL	Provisional	"Data have undergone all planned QA procedures, have been entered into the system of record, and have passed verification procedures to ensure that data in the system of record match source data (field forms, sensor data files, etc.). These data have not undergone all QC procedures"
+DPL	Raw	"Data in their state of original collection, either in the form of paper or electronic field forms, eletronic sensor files, or digital media(photo, video, or audio). These data generally have been collected following some QA procedures, but have not undergone any QC procedures."
+FieldSeason	2016	Water Year 2016
+FieldSeason	2017	Water Year 2017
+FieldSeason	2018	Water Year 2018
+FieldSeason	2019	Water Year 2019
+FieldSeason	2020	Water Year 2020
+FieldSeason	2021	Water Year 2021
+FieldSeason	2022	Water Year 2022
+FieldSeason	2023	Water Year 2023
+FlowCondition	dry	dry
+FlowCondition	flood	flood
+FlowCondition	flowing	flowing
+FlowCondition	shore ice	shore ice
+FlowCondition	solid ice	solid ice
+FlowCondition	standing water	standing water
+FlowCondition	wet soil only	wet soil only
+Panel	Panel Annual	Site is expected to be monitored every year
+Panel	Panel B	The B group of sites is monitored every 3 years
+Panel	Panel C	The C group of sites is monitored every 3 years
+Panel	Panel D	The D group of sites is monitored every 3 years
+Panel	Panel Inactive	Inactive sites are no longer expected to be monitored
+Park	CAMO	Castle Mountains National Monument
+Park	DEVA	Death Valley National Park
+Park	JOTR	Joshua Tree National Park
+Park	LAKE	Lake Mead National Recreation Area
+Park	MOJA	Mojave National Preserve
+Park	PARA	Parashant National Monument
+SampleFrame	3Yr	3Yr
+SampleFrame	Annual	Annual
+SampleFrame	Oversample	Oversample
+SiteCode	DEVA_P_BOT0781	DEVA_P_BOT0782
+SiteCode	DEVA_P_HUM0793	DEVA_P_HUM0794
+SiteCode	DEVA_P_PAN0418	DEVA_P_PAN0419
+SiteCode	DEVA_P_POP0642	DEVA_P_POP0643
+SiteCode	DEVA_P_SHR0202	DEVA_P_SHR0203
+SiteCode	DEVA_P_WAU0763	DEVA_P_WAU0764
+SiteCode	JOTR_P_BUZ0084	JOTR_P_BUZ0085
+SiteCode	LAKE_P_ARI0033	LAKE_P_ARI0034
+SiteCode	LAKE_P_BIG0045	LAKE_P_BIG0046
+SiteCode	LAKE_P_BUR0017	LAKE_P_BUR0018
+SiteCode	LAKE_P_COT0034	LAKE_P_COT0035
+SiteCode	LAKE_P_DAW0052	LAKE_P_DAW0053
+SiteCode	LAKE_P_GRA0058	LAKE_P_GRA0059
+SiteCode	LAKE_P_HOT0065	LAKE_P_HOT0066
+SiteCode	LAKE_P_LOS0009	LAKE_P_LOS0010
+SiteCode	LAKE_P_PAL0047	LAKE_P_PAL0048
+SiteCode	LAKE_P_PUP0007	LAKE_P_PUP0008
+SiteCode	LAKE_P_SAC0028	LAKE_P_SAC0029
+SiteCode	LAKE_P_SAL0019	LAKE_P_SAL0019
+SiteCode	LAKE_P_SAL0060	LAKE_P_SAL0060
+SiteCode	LAKE_P_SAU0022	LAKE_P_SAU0023
+SiteCode	MOJA_P_BAR0006	MOJA_P_BAR0007
+SiteCode	MOJA_P_DOV0090	MOJA_P_DOV0091
+SiteCode	MOJA_P_HAC0116	MOJA_P_HAC0117
+SiteCode	MOJA_P_LIV0136	MOJA_P_LIV0137
+SiteCode	MOJA_P_MAR0147	MOJA_P_MAR0148
+SiteCode	MOJA_P_UNN0026	MOJA_P_UNN0027
+SiteCode	PARA_P_CHI0190	PARA_P_CHI0191
+SiteCode	PARA_P_COC0029	PARA_P_COC0030
+SiteCode	PARA_P_IDE0203	PARA_P_IDE0204
+SiteCode	PARA_P_JUM0125	PARA_P_JUM0126
+SiteCode	PARA_P_LIM0080	PARA_P_LIM0081
+SiteCode	PARA_P_LIN0020	PARA_P_LIN0021
+SiteCode	PARA_P_MAP0110	PARA_P_MAP0111
+SiteCode	PARA_P_PIG0023	PARA_P_PIG0024
+SiteCode	PARA_P_POC0116	PARA_P_POC0117
+SiteCode	PARA_P_RAT0212	PARA_P_RAT0213
+SiteCode	PARA_P_YEL0068	PARA_P_YEL0069
+VisitType	Primary	Primary
+VisitType	Replicate	Replicate
+VisitType	Supplemental	Supplemental

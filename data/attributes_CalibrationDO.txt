@@ -1,17 +1,17 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-Park		categorical				
-SiteCode		character				
-SiteName		character				
-VisitDate		Date		!Add datetime specifier here!		
-StartTime		Date		!Add datetime specifier here!		
-FieldSeason		numeric	!Add units here!			
-VisitType		categorical				
-CalibrationDate		Date		!Add datetime specifier here!		
-CalibrationTime		Date		!Add datetime specifier here!		
-DOInstrument		categorical				
-BarometricPressure_mmHg		numeric	!Add units here!			
-PreCalibrationReading_percent		numeric	!Add units here!			
-PreCalibrationTemperature_C		numeric	!Add units here!			
-PostCalibrationReading_percent		numeric	!Add units here!			
-PostCalibrationTemperature_C		numeric	!Add units here!			
-Notes		categorical				
+Park	Four letter park code	categorical				
+SiteCode	Unique alphanumeric site code	categorical				
+SiteName	Descriptive name of the site	character				
+VisitDate	Date that the monitoring occured	Date		YYYY-MM-DD		
+StartTime	Time that the monitoring occurred	Date		HH:MM:SS		
+FieldSeason	Field Season is typically the Water Year defined as Oct. 1st - Sept. 30th	categorical				
+VisitType	"Purpose of visit: Primary, Replicate, Training, Calibration, Auxilliary, Unknown"	categorical				
+CalibrationDate	Date of calibration	Date		YYYY-MM-DD		
+CalibrationTime	Time of calibration	Date		HH:MM:SS		
+DOInstrument	Name of water quality instrument (instrument being calibrated)	categorical				
+BarometricPressure_mmHg	BarometricPressure_mmHg	numeric	mmHg		-999	Data not collected
+PreCalibrationReading_percent	Pre-calibration dissolved oxygen reading in percent	numeric	percent			
+PreCalibrationTemperature_C	Pre-calibration temperature in C	numeric	celsius		-999	Data not collected
+PostCalibrationReading_percent	Post-calibration dissolved oxygen reading in percent	numeric	percent			
+PostCalibrationTemperature_C	Post-calibration temperature in C	numeric	celsius		-999	Data not collected
+Notes	Notes about this calibration	character				

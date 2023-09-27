@@ -1,16 +1,16 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-Park		categorical				
-SiteCode		character				
-SiteName		character				
-VisitDate		Date		!Add datetime specifier here!		
-FieldSeason		numeric	!Add units here!			
-SampleFrame		categorical				
-Panel		categorical				
-IsVegetationObserved		categorical				
-MistletoePresent		categorical				
-LifeForm		categorical				
-Rank		numeric	!Add units here!			
-DominantSpecies		character				
-VisitType		categorical				
-DPL		categorical				
-Notes		categorical				
+Park	Four letter park code	categorical				
+SiteCode	Unique alphanumeric site code	categorical				
+SiteName	Descriptive name of the site	character				
+VisitDate	Date that the monitoring occured	Date		YYYY-MM-DD		
+FieldSeason	Field Season is typically the Water Year defined as Oct. 1st - Sept. 30th	categorical				
+SampleFrame	Frequency of sampling at this site	categorical				
+Panel	Grouping of sites that are usually sampled in the same year	categorical				
+IsVegetationObserved	Indicates whether riparian vegetation was observed at a spring	categorical			ND	No Data
+MistletoePresent	Indicates whether mistletoe was observed at the spring	categorical			ND	No Data
+LifeForm	"Type of riparian vegetation, split into broad and easily identifiable classes"	categorical				
+Rank	Integer indicating relative canopy cover of vegetation life form. 1 indicates greatest canopy cover. Ties are allowed.	numeric	dimensionless			
+DominantSpecies	Text description or name of the dominant species	character				
+VisitType	"Purpose of visit: Primary, Replicate, Training, Calibration, Auxilliary, Unknown"	categorical				
+DPL	"Level of data processing applied to this data [Raw, Provisional, Accepted, Certified]"	categorical				
+Notes	Additional notes about the invasive species observation	character				

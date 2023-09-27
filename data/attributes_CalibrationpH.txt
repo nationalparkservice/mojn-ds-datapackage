@@ -9,11 +9,11 @@ VisitType	"Purpose of visit: Primary, Replicate, Training, Calibration, Auxillia
 CalibrationDate	Date of calibration	Date		YYYY-MM-DD		
 CalibrationTime	Time of calibration	Date		HH:MM:SS		
 pHInstrument	Name of water quality instrument (instrument being calibrated)	categorical				
-StandardValue_pH	Standard value of pH solution	numeric	!Add units here!			
-TemperatureCorrectedStd_pH	Temperature-corrected standard value of pH solution (only applies to some instruments)	numeric	!Add units here!			
-PreCalibrationReading_pH	Pre-calibration pH value	numeric	!Add units here!			
-PreCalibrationTemperature_C	Pre-calibration temperature in C	numeric	celsius			
-PostCalibrationReading_pH	Post-calibration pH value	numeric	!Add units here!			
-PostCalibrationTemperature_C	Post-calibration temperature in C	numeric	celsius			
+StandardValue_pH	Standard value of pH solution	numeric	dimensionless			
+TemperatureCorrectedStd_pH	Temperature-corrected standard value of pH solution (only applies to some instruments)	numeric	dimensionless		-999	Data not collected
+PreCalibrationReading_pH	Pre-calibration pH value	numeric	dimensionless		-999	Data not collected
+PreCalibrationTemperature_C	Pre-calibration temperature in C	numeric	celsius		-999	Data not collected
+PostCalibrationReading_pH	Post-calibration pH value	numeric	dimensionless			
+PostCalibrationTemperature_C	Post-calibration temperature in C	numeric	celsius		-999	Data not collected
 Notes	Notes about this calibration	character				
-pHUniqueID	???????????	character				
+pHUniqueID	Unique linking ID	character				

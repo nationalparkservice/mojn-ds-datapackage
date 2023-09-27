@@ -1,20 +1,20 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-Park		categorical				
-SiteCode		character				
-SiteName		character				
-VisitDate		Date		!Add datetime specifier here!		
-FieldSeason		numeric	!Add units here!			
-SpringType		categorical				
-FlowCondition		categorical				
-WQDataCollected		categorical				
-InvasivesObserved		categorical				
-RiparianObserved		categorical				
-MistletoePresent		categorical				
-WildlifeObserved		categorical				
-SpringbrookLength_Class		categorical				
-SpringbrookWidth_m		numeric	!Add units here!			
-SpringbrookLength_m		numeric	!Add units here!			
-SampleFrame		categorical				
-VisitType		categorical				
-MonitoringStatus		categorical				
-WaterQualityNotes		categorical				
+Park	Four letter park code	categorical				
+SiteCode	Unique alphanumeric site code	categorical				
+SiteName	Descriptive name of the site	character				
+VisitDate	Date that the monitoring occured	Date		YYYY-MM-DD		
+FieldSeason	Field Season is typically the Water Year defined as Oct. 1st - Sept. 30th	categorical				
+SpringType	Hydrologic category of spring	categorical				
+FlowCondition	Flow condition at time of visit	categorical				
+WQDataCollected	Indicates whether the amount of water at the spring was sufficient for wq measurements	categorical				
+InvasivesObserved	Indicates whether invasive species were observed at the spring	categorical				
+RiparianObserved	Indicates whether ripaarian species were observed at the spring	categorical				
+MistletoePresent	Indicates whether mistletoe was observed at the spring	categorical				
+WildlifeObserved	Indicates whether evidence of wildlife was observed at the spring	categorical				
+SpringbrookLength_Class	Indicates whether springbrook was measured directly or estimated to be >= 50m	categorical				
+SpringbrookWidth_m	Length of springbrook in meters	numeric	meter			
+SpringbrookLength_m	Width of springbrook in meters	numeric	meter			
+SampleFrame	Frequency of sampling at this site	categorical				
+VisitType	"Purpose of visit: Primary, Replicate, Training, Calibration, Auxilliary, Unknown"	categorical				
+MonitoringStatus	Result of monitoring visit: Sampled or reason unable to sample	categorical				
+WaterQualityNotes	Additional notes on the water quality of the spring	character				

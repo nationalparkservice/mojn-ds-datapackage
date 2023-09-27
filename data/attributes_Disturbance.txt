@@ -1,23 +1,23 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-Park		categorical				
-SiteCode		character				
-SiteName		character				
-VisitDate		Date		!Add datetime specifier here!		
-FieldSeason		numeric	!Add units here!			
-SampleFrame		categorical				
-Panel		categorical				
-Roads		categorical				
-HumanUse		categorical				
-PlantManagement		categorical				
-HikingTrails		categorical				
-Livestock		categorical				
-OtherAnthropogenic		categorical				
-Fire		categorical				
-Flooding		categorical				
-Wildlife		categorical				
-OtherNatural		categorical				
-Overall		categorical				
-FlowModificationStatus		categorical				
-VisitType		categorical				
-Notes		character				
-DPL		categorical				
+Park	Four letter park code	categorical				
+SiteCode	Unique alphanumeric site code	categorical				
+SiteName	Descriptive name of the site	character				
+VisitDate	Date that the monitoring occured	Date		YYYY-MM-DD		
+FieldSeason	Field Season is typically the Water Year defined as Oct. 1st - Sept. 30th	categorical				
+SampleFrame	Frequency of sampling at this site	categorical				
+Panel	Grouping of sites that are usually sampled in the same year	categorical				
+Roads	Road disturbance percent class from lookup.DisturbanceClass	categorical				
+HumanUse	Human use disturbance percent class from lookup.DisturbanceClass	categorical				
+PlantManagement	Plant management disturbance percent class from lookup.DisturbanceClass	categorical				
+HikingTrails	Hiking trail disturbance percent class from lookup.DisturbanceClass	categorical				
+Livestock	Livestock disturbance percent class from lookup.DisturbanceClass	categorical				
+OtherAnthropogenic	Other anthropogenic disturbance percent class from lookup.DisturbanceClass	categorical				
+Fire	Fire disturbance percent class from lookup.DisturbanceClass	categorical				
+Flooding	Flooding disturbance percent class from lookup.DisturbanceClass	categorical				
+Wildlife	Wildlife disturbance percent class from lookup.DisturbanceClass	categorical				
+OtherNatural	Other natural disturbance percent class from lookup.DisturbanceClass	categorical				
+Overall	Overall disturbance percent class from lookup.DisturbanceClass	categorical				
+FlowModificationStatus	Indicates whether spring flow has been modified from its natural course	categorical				
+VisitType	"Purpose of visit: Primary, Replicate, Training, Calibration, Auxilliary, Unknown"	categorical				
+Notes	Additional notes about disturbance at this location	character				
+DPL	"Level of data processing applied to this data [Raw, Provisional, Accepted, Certified]"	categorical				

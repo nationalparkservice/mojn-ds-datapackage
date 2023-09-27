@@ -1,6 +1,6 @@
 givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
-Jennifer		Bailard	National Park Service	jennifer_bailard@nps.gov		PI	MOJN Desert Springs		
-Jennifer		Bailard	National Park Service	jennifer_bailard@nps.gov		creator	MOJN Desert Springs		
-Mark		Lehman	National Park Service	mark_lehman@nps.gov		contact	MOJN Desert Springs		
-Sarah		Wright	National Park Service	sarah_wright@nps.gov		contact	MOJN Desert Springs		
-Mojave Desert I&M			National Park Service	mojn@nps.gov		contact	MOJN Desert Springs		
+Jennifer		Bailard	National Park Service: Mojave Desert Network	jennifer_bailard@nps.gov	0009-0000-7542-8907	PI	MOJN Desert Springs		
+Jennifer		Bailard	National Park Service: Mojave Desert Network	jennifer_bailard@nps.gov	0009-0000-7542-8907	creator	MOJN Desert Springs		
+Mark		Lehman	National Park Service: Mojave Desert Network	mark_lehman@nps.gov	0009-0000-0937-0727	contact	MOJN Desert Springs		
+Sarah		Wright	National Park Service: Mojave Desert Network	sarah_wright@nps.gov	0009-0004-5060-2189	contact	MOJN Desert Springs		
+Mojave Desert Network I&M			National Park Service	mojn@nps.gov		contact	MOJN Desert Springs		

@@ -1,22 +1,22 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-Park		categorical				
-Subunit		categorical				
-SiteCode		character				
-SiteName		character				
-SiteDescription		categorical				
-EcologicalDescription		character				
-LogisticalDescription		character				
-DriveDescription		character				
-HikeDescription		character				
-HikeDistance_m		character				
-HikeTime_min		character				
-GRTSDraw		categorical				
-GRTSOrder		numeric	!Add units here!			
-SiteStatus		categorical				
-SampleFrame		categorical				
-Panel		categorical				
-SiteProtectedStatus		categorical				
-Lat_WGS84		numeric	!Add units here!			
-Lon_WGS84		numeric	!Add units here!			
-X_UTM_NAD83_11N		numeric	!Add units here!			
-Y_UTM_NAD83_11N		numeric	!Add units here!			
+Park	Four letter park code	categorical				
+Subunit	Section of the park where site is located	categorical				
+SiteCode	Unique alphanumeric site code	categorical				
+SiteName	Descriptive name of the site	character				
+SiteDescription	General overview of the site	character				
+EcologicalDescription	Description of the ecological characteristics of this site	character				
+LogisticalDescription	Description of safety or land ownership issues related to accessing this site	character				
+DriveDescription	Description of the drive to the site	character				
+HikeDescription	Description of the hike to the site	character				
+HikeDistance_m	Distance of the hike to the site (meters)	numeric	meter			
+HikeTime_min	Duration of the hike to the site (minutes)	numeric	minute			
+GRTSDraw	Documents the specific GRTS draw that applies to these locations.	categorical				
+GRTSOrder	Order that spring appears in the GRTS draw. Unique for a GRTS frame	numeric	number		999	Not part of a GRTS draw
+SiteStatus	GRTS assessment of the site	categorical				
+SampleFrame	Frequency of sampling at this site	categorical				
+Panel	Grouping of sites that are usually sampled in the same year	categorical				
+SiteProtectedStatus	Is the location of this site protected	categorical				
+Lat_WGS84	Latitude in WGS84 coordinate system	numeric	degree			
+Lon_WGS84	Longitude in WGS84 coordinate system	numeric	degree			
+X_UTM_NAD83_11N	UTM Zone 11N X coordinate of spring	numeric	meter			
+Y_UTM_NAD83_11N	UTM Zone 11N Y coordinate of spring	numeric	meter			

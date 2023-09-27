@@ -1,12 +1,12 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-Park		categorical				
-SiteCode		character				
-SiteName		character				
-VisitDate		Date		!Add datetime specifier here!		
-FieldSeason		numeric	!Add units here!			
-SampleFrame		categorical				
-Panel		categorical				
-FlowCondition		categorical				
-DischargeClass_L_per_s		categorical				
-VisitType		categorical				
-DPL		categorical				
+Park	Four letter park code	categorical				
+SiteCode	Unique alphanumeric site code	categorical				
+SiteName	Descriptive name of the site	character				
+VisitDate	Date that the monitoring occured	Date		YYYY-MM-DD		
+FieldSeason	Field Season is typically the Water Year defined as Oct. 1st - Sept. 30th	categorical				
+SampleFrame	Frequency of sampling at this site	categorical				
+Panel	Grouping of sites that are usually sampled in the same year	categorical				
+FlowCondition	Flow condition at time of visit	categorical				
+DischargeClass_L_per_s	Estimated discharge range in liters per second	categorical				
+VisitType	"Purpose of visit: Primary, Replicate, Training, Calibration, Auxilliary, Unknown"	categorical				
+DPL	"Level of data processing applied to this data [Raw, Provisional, Accepted, Certified]"	categorical				

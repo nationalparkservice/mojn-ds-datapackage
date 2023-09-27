@@ -1,16 +1,16 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-Park		categorical				
-SiteCode		character				
-SiteName		character				
-VisitDate		Date		!Add datetime specifier here!		
-FieldSeason		numeric	!Add units here!			
-SampleFrame		categorical				
-Panel		categorical				
-InvasivesObserved		categorical				
-InRiparianVegBuffer		categorical				
-USDAPlantsCode		categorical				
-ScientificName		categorical				
-VisitType		categorical				
-ProtectedStatus		character				
-DPL		categorical				
-Notes		categorical				
+Park	Four letter park code	categorical				
+SiteCode	Unique alphanumeric site code	categorical				
+SiteName	Descriptive name of the site	character				
+VisitDate	Date that the monitoring occured	Date		YYYY-MM-DD		
+FieldSeason	Field Season is typically the Water Year defined as Oct. 1st - Sept. 30th	categorical				
+SampleFrame	Frequency of sampling at this site	categorical				
+Panel	Grouping of sites that are usually sampled in the same year	categorical				
+InvasivesObserved	Indicates whether invasive species were observed at a spring	categorical				
+InRiparianVegBuffer	Indicates whether invasive species observation falls within or outside of riparian veg buffer	categorical				
+USDAPlantsCode	USDA plant code assigned to taxon	categorical				
+ScientificName	Scientific name of the observed taxon	categorical				
+VisitType	"Purpose of visit: Primary, Replicate, Training, Calibration, Auxilliary, Unknown"	categorical				
+ProtectedStatus	Protected status of the observed taxon	categorical				
+DPL	"Level of data processing applied to this data [Raw, Provisional, Accepted, Certified]"	categorical				
+Notes	Additional notes about the invasive species observation	character				

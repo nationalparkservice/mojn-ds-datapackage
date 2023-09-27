@@ -1,19 +1,19 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-Park		categorical				
-SiteCode		character				
-SiteName		character				
-VisitDate		Date		!Add datetime specifier here!		
-FieldSeason		numeric	!Add units here!			
-SampleFrame		categorical				
-Panel		categorical				
-FlowCondition		categorical				
-SpringbrookType		categorical				
-SpringbrookLengthFlag		categorical				
-SpringbrookLength_m		numeric	!Add units here!			
-SpringbrookWidth_m		numeric	!Add units here!			
-DiscontinuousSpringbrookLengthFlag		categorical				
-DiscontinuousSpringbrookLength_m		numeric	!Add units here!			
-VisitType		categorical				
-DPL		categorical				
-Notes		character				
-SpringbrookNotes		character				
+Park	Four letter park code	categorical				
+SiteCode	Unique alphanumeric site code	categorical				
+SiteName	Descriptive name of the site	character				
+VisitDate	Date that the monitoring occured	Date		YYYY-MM-DD		
+FieldSeason	Field Season is typically the Water Year defined as Oct. 1st - Sept. 30th	categorical				
+SampleFrame	Frequency of sampling at this site	categorical				
+Panel	Grouping of sites that are usually sampled in the same year	categorical				
+FlowCondition	Flow condition at time of visit	categorical				
+SpringbrookType	Type of springbrook	categorical			ND	No Data
+SpringbrookLengthFlag	Indicates whether springbrook length is greater than reported length	categorical				
+SpringbrookLength_m	Length of springbrook in meters	numeric	meter			
+SpringbrookWidth_m	Width of springbrook in meters	numeric	meter			
+DiscontinuousSpringbrookLengthFlag	Indicates whether discontinuous springbrook length is greater than reported length	categorical				
+DiscontinuousSpringbrookLength_m	Length of spring including discontinuous sections in meters	numeric	meter			
+VisitType	"Purpose of visit: Primary, Replicate, Training, Calibration, Auxilliary, Unknown"	categorical				
+DPL	"Level of data processing applied to this data [Raw, Provisional, Accepted, Certified]"	categorical				
+Notes	Notes about the flow condition	character				
+SpringbrookNotes	Notes specific to the springbrook channel characteristics	character				

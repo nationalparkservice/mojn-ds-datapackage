@@ -1,20 +1,20 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-Park		categorical				
-SiteCode		character				
-SiteName		character				
-VisitDate		Date		!Add datetime specifier here!		
-FieldSeason		numeric	!Add units here!			
-SampleFrame		categorical				
-Panel		categorical				
-IsWildlifeObserved		categorical				
-WildlifeType		categorical				
-DirectObservation		categorical				
-Scat		categorical				
-Tracks		categorical				
-Shelter		categorical				
-Foraging		categorical				
-Vocalization		categorical				
-OtherEvidence		categorical				
-Notes		character				
-VisitType		categorical				
-DPL		categorical				
+Park	Four letter park code	categorical				
+SiteCode	Unique alphanumeric site code	categorical				
+SiteName	Descriptive name of the site	character				
+VisitDate	Date that the monitoring occured	Date		YYYY-MM-DD		
+FieldSeason	Field Season is typically the Water Year defined as Oct. 1st - Sept. 30th	categorical				
+SampleFrame	Frequency of sampling at this site	categorical				
+Panel	Grouping of sites that are usually sampled in the same year	categorical				
+IsWildlifeObserved	Indicates whether evidence of wildlife was observed at the spring	categorical				
+WildlifeType	Indicates wildlife category of interest	categorical				
+DirectObservation	Indicates whether a direct observation was made of the specified wildilfe type	categorical				
+Scat	Indicates whether scat from the specified wildilfe type was found	categorical				
+Tracks	Indicates whether tracks from the specified wildilfe type were found	categorical				
+Shelter	Indicates whether shelter/burrows from the specified wildilfe type were found	categorical				
+Foraging	Indicates whether foraging from the specified wildlife type was found	categorical				
+Vocalization	Indicates whether vocalization from the specified wildilfe type was heard	categorical				
+OtherEvidence	Indicates whether other evidence from the specified wildilfe type was found	categorical				
+Notes	Notes pertaining to wildlife evidence	character				
+VisitType	"Purpose of visit: Primary, Replicate, Training, Calibration, Auxillary, Unknown"	categorical				
+DPL	"Level of data processing applied to this data [Raw, Provisional, Accepted, Certified]"	categorical				
